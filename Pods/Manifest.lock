@@ -1,0 +1,27 @@
+PODS:
+  - Bolts/Tasks (1.8.4)
+  - CLTypingLabel (0.1.4)
+  - LTMorphingLabel (0.3.0)
+  - NVActivityIndicatorView (2.12)
+  - Parse (1.14.2):
+    - Bolts/Tasks (~> 1.8)
+  - ProjectOxfordFace (1.0)
+
+DEPENDENCIES:
+  - CLTypingLabel
+  - LTMorphingLabel
+  - NVActivityIndicatorView
+  - Parse
+  - ProjectOxfordFace
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  CLTypingLabel: f80ab5adee1814e4fc7093ee5e144d3939df7f3d
+  LTMorphingLabel: 2777d8d9cb699125f48dfcd95d78bd3d77c87ade
+  NVActivityIndicatorView: de8be03826726ad99cdfacf7fe09e88cbfeef911
+  Parse: 4335d65f40cb3d43190d723144bbe1afb9c38230
+  ProjectOxfordFace: 6ee1f7b0a39b5d1cba20cf100d8f9d11ad264790
+
+PODFILE CHECKSUM: 97bb5dd56f235fb0c519724a06d1099844a081e9
+
+COCOAPODS: 1.0.0

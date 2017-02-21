@@ -14,6 +14,13 @@
 		072A8DCE1E2A5126005C7F09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072A8DCC1E2A5126005C7F09 /* LaunchScreen.storyboard */; };
 		072A8DD91E2A5126005C7F09 /* Face_SmashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072A8DD81E2A5126005C7F09 /* Face_SmashTests.swift */; };
 		072A8DE41E2A5126005C7F09 /* Face_SmashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072A8DE31E2A5126005C7F09 /* Face_SmashUITests.swift */; };
+		073A87501E2A558C00868C86 /* AddFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A874F1E2A558C00868C86 /* AddFaceViewController.swift */; };
+		073A87521E2A559C00868C86 /* ShowDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A87511E2A559C00868C86 /* ShowDataViewController.swift */; };
+		073A87541E2A574100868C86 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073A87531E2A574100868C86 /* Camera.storyboard */; };
+		073A87561E2A588700868C86 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A87551E2A588700868C86 /* CameraViewController.swift */; };
+		5DF9492BA2600384048815CF /* Pods_Face_Smash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974AD5B1A7728ACC31BCABD0 /* Pods_Face_Smash.framework */; };
+		D4D66CCFF61E326C1773B3C8 /* Pods_Face_SmashUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75C41CB1B9F08B99411553D /* Pods_Face_SmashUITests.framework */; };
+		F545B8E7EF15A4145E5A7DAD /* Pods_Face_SmashTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7F9729A432652A583F305B /* Pods_Face_SmashTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,19 @@
 		072A8DDF1E2A5126005C7F09 /* Face.SmashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Face.SmashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		072A8DE31E2A5126005C7F09 /* Face_SmashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Face_SmashUITests.swift; sourceTree = "<group>"; };
 		072A8DE51E2A5126005C7F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		073A874F1E2A558C00868C86 /* AddFaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddFaceViewController.swift; path = ../AddFaceViewController.swift; sourceTree = "<group>"; };
+		073A87511E2A559C00868C86 /* ShowDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShowDataViewController.swift; path = ../ShowDataViewController.swift; sourceTree = "<group>"; };
+		073A87531E2A574100868C86 /* Camera.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Camera.storyboard; path = ../Camera.storyboard; sourceTree = "<group>"; };
+		073A87551E2A588700868C86 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		586C507A2F7E212A06350327 /* Pods-Face.Smash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Face.Smash.release.xcconfig"; path = "Pods/Target Support Files/Pods-Face.Smash/Pods-Face.Smash.release.xcconfig"; sourceTree = "<group>"; };
+		6F7F9729A432652A583F305B /* Pods_Face_SmashTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Face_SmashTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96711F81CA9E6C54C6BBCAF4 /* Pods-Face.SmashTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Face.SmashTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Face.SmashTests/Pods-Face.SmashTests.release.xcconfig"; sourceTree = "<group>"; };
+		974AD5B1A7728ACC31BCABD0 /* Pods_Face_Smash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Face_Smash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75C41CB1B9F08B99411553D /* Pods_Face_SmashUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Face_SmashUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BD3E7CA9A08F006C69D4E9 /* Pods-Face.SmashUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Face.SmashUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Face.SmashUITests/Pods-Face.SmashUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B402325D01A1B87F956FBB88 /* Pods-Face.Smash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Face.Smash.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Face.Smash/Pods-Face.Smash.debug.xcconfig"; sourceTree = "<group>"; };
+		B687E0F562FDBBB3C03D0858 /* Pods-Face.SmashTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Face.SmashTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Face.SmashTests/Pods-Face.SmashTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8C5BA071305638D350941A4 /* Pods-Face.SmashUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Face.SmashUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Face.SmashUITests/Pods-Face.SmashUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF9492BA2600384048815CF /* Pods_Face_Smash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F545B8E7EF15A4145E5A7DAD /* Pods_Face_SmashTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4D66CCFF61E326C1773B3C8 /* Pods_Face_SmashUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +104,8 @@
 				072A8DD71E2A5126005C7F09 /* Face.SmashTests */,
 				072A8DE21E2A5126005C7F09 /* Face.SmashUITests */,
 				072A8DC11E2A5126005C7F09 /* Products */,
+				8F2968C3BBF335CE45655243 /* Pods */,
+				EC7F5DD99F30C5FFED85BFFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +122,16 @@
 		072A8DC21E2A5126005C7F09 /* Face.Smash */ = {
 			isa = PBXGroup;
 			children = (
+				073A87511E2A559C00868C86 /* ShowDataViewController.swift */,
+				073A874F1E2A558C00868C86 /* AddFaceViewController.swift */,
 				072A8DC31E2A5126005C7F09 /* AppDelegate.swift */,
 				072A8DC51E2A5126005C7F09 /* ViewController.swift */,
 				072A8DC71E2A5126005C7F09 /* Main.storyboard */,
 				072A8DCA1E2A5126005C7F09 /* Assets.xcassets */,
 				072A8DCC1E2A5126005C7F09 /* LaunchScreen.storyboard */,
 				072A8DCF1E2A5126005C7F09 /* Info.plist */,
+				073A87531E2A574100868C86 /* Camera.storyboard */,
+				073A87551E2A588700868C86 /* CameraViewController.swift */,
 			);
 			path = Face.Smash;
 			sourceTree = "<group>";
@@ -125,6 +154,29 @@
 			path = Face.SmashUITests;
 			sourceTree = "<group>";
 		};
+		8F2968C3BBF335CE45655243 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B402325D01A1B87F956FBB88 /* Pods-Face.Smash.debug.xcconfig */,
+				586C507A2F7E212A06350327 /* Pods-Face.Smash.release.xcconfig */,
+				B687E0F562FDBBB3C03D0858 /* Pods-Face.SmashTests.debug.xcconfig */,
+				96711F81CA9E6C54C6BBCAF4 /* Pods-Face.SmashTests.release.xcconfig */,
+				C8C5BA071305638D350941A4 /* Pods-Face.SmashUITests.debug.xcconfig */,
+				A7BD3E7CA9A08F006C69D4E9 /* Pods-Face.SmashUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC7F5DD99F30C5FFED85BFFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				974AD5B1A7728ACC31BCABD0 /* Pods_Face_Smash.framework */,
+				6F7F9729A432652A583F305B /* Pods_Face_SmashTests.framework */,
+				A75C41CB1B9F08B99411553D /* Pods_Face_SmashUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 072A8DE81E2A5126005C7F09 /* Build configuration list for PBXNativeTarget "Face.Smash" */;
 			buildPhases = (
+				75756F60FF84C7C90D4230F3 /* 📦 Check Pods Manifest.lock */,
 				072A8DBC1E2A5126005C7F09 /* Sources */,
 				072A8DBD1E2A5126005C7F09 /* Frameworks */,
 				072A8DBE1E2A5126005C7F09 /* Resources */,
+				837F48DBF5C61C354F2C7EC0 /* 📦 Embed Pods Frameworks */,
+				9D261308B4E16EA50B23741A /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 072A8DEB1E2A5126005C7F09 /* Build configuration list for PBXNativeTarget "Face.SmashTests" */;
 			buildPhases = (
+				75105AC74E04780CA1C769B7 /* 📦 Check Pods Manifest.lock */,
 				072A8DD01E2A5126005C7F09 /* Sources */,
 				072A8DD11E2A5126005C7F09 /* Frameworks */,
 				072A8DD21E2A5126005C7F09 /* Resources */,
+				23C85F761D4CAB3BD7A8E471 /* 📦 Embed Pods Frameworks */,
+				95FF72FCC64BEA4431E3D5B6 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 072A8DEE1E2A5126005C7F09 /* Build configuration list for PBXNativeTarget "Face.SmashUITests" */;
 			buildPhases = (
+				F43FC54CD02EEB2A737048CE /* 📦 Check Pods Manifest.lock */,
 				072A8DDB1E2A5126005C7F09 /* Sources */,
 				072A8DDC1E2A5126005C7F09 /* Frameworks */,
 				072A8DDD1E2A5126005C7F09 /* Resources */,
+				744BE27B918BCFFD98B496EA /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,18 +248,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Mark Fernandez";
 				TargetAttributes = {
 					072A8DBF1E2A5126005C7F09 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = TRLUU82LXS;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
 					};
 					072A8DD31E2A5126005C7F09 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
 						TestTargetID = 072A8DBF1E2A5126005C7F09;
 					};
 					072A8DDE1E2A5126005C7F09 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
 						TestTargetID = 072A8DBF1E2A5126005C7F09;
 					};
 				};
@@ -230,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				072A8DCE1E2A5126005C7F09 /* LaunchScreen.storyboard in Resources */,
+				073A87541E2A574100868C86 /* Camera.storyboard in Resources */,
 				072A8DCB1E2A5126005C7F09 /* Assets.xcassets in Resources */,
 				072A8DC91E2A5126005C7F09 /* Main.storyboard in Resources */,
 			);
@@ -251,12 +317,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23C85F761D4CAB3BD7A8E471 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Face.SmashTests/Pods-Face.SmashTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		744BE27B918BCFFD98B496EA /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Face.SmashUITests/Pods-Face.SmashUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75105AC74E04780CA1C769B7 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		75756F60FF84C7C90D4230F3 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		837F48DBF5C61C354F2C7EC0 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Face.Smash/Pods-Face.Smash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95FF72FCC64BEA4431E3D5B6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Face.SmashTests/Pods-Face.SmashTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D261308B4E16EA50B23741A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Face.Smash/Pods-Face.Smash-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F43FC54CD02EEB2A737048CE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		072A8DBC1E2A5126005C7F09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				072A8DC61E2A5126005C7F09 /* ViewController.swift in Sources */,
+				073A87561E2A588700868C86 /* CameraViewController.swift in Sources */,
+				073A87521E2A559C00868C86 /* ShowDataViewController.swift in Sources */,
+				073A87501E2A558C00868C86 /* AddFaceViewController.swift in Sources */,
 				072A8DC41E2A5126005C7F09 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,8 +518,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -372,8 +566,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -392,6 +588,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -399,68 +596,84 @@
 		};
 		072A8DE91E2A5126005C7F09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B402325D01A1B87F956FBB88 /* Pods-Face.Smash.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TRLUU82LXS;
 				INFOPLIST_FILE = Face.Smash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mark-Fernandez.Face-Smash";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		072A8DEA1E2A5126005C7F09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 586C507A2F7E212A06350327 /* Pods-Face.Smash.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TRLUU82LXS;
 				INFOPLIST_FILE = Face.Smash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mark-Fernandez.Face-Smash";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		072A8DEC1E2A5126005C7F09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B687E0F562FDBBB3C03D0858 /* Pods-Face.SmashTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = Face.SmashTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mark-Fernandez.Face-SmashTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Face.Smash.app/Face.Smash";
 			};
 			name = Debug;
 		};
 		072A8DED1E2A5126005C7F09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96711F81CA9E6C54C6BBCAF4 /* Pods-Face.SmashTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = Face.SmashTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mark-Fernandez.Face-SmashTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Face.Smash.app/Face.Smash";
 			};
 			name = Release;
 		};
 		072A8DEF1E2A5126005C7F09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8C5BA071305638D350941A4 /* Pods-Face.SmashUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Face.SmashUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mark-Fernandez.Face-SmashUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Face.Smash;
 			};
 			name = Debug;
 		};
 		072A8DF01E2A5126005C7F09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7BD3E7CA9A08F006C69D4E9 /* Pods-Face.SmashUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Face.SmashUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mark-Fernandez.Face-SmashUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Face.Smash;
 			};
 			name = Release;
@@ -484,6 +697,7 @@
 				072A8DEA1E2A5126005C7F09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		072A8DEB1E2A5126005C7F09 /* Build configuration list for PBXNativeTarget "Face.SmashTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +706,7 @@
 				072A8DED1E2A5126005C7F09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		072A8DEE1E2A5126005C7F09 /* Build configuration list for PBXNativeTarget "Face.SmashUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +715,7 @@
 				072A8DF01E2A5126005C7F09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
